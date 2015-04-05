@@ -1,0 +1,11 @@
+<apex:page standardController="Contact" extensions="Contact2">
+	<apex:form >
+		<apex:pageBlock >
+			<apex:inputField value="{!contact.LastName}"/>
+			<div style="border:2px blue solid; height:10em;">
+
+			</div>
+		</apex:pageBlock>
+		<apex:commandButton action="{!save}" value="save"/>
+	</apex:form> 
+</apex:page>
