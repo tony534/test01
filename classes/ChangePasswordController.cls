@@ -22,5 +22,9 @@ public class ChangePasswordController {
 	System.debug('nihao');
         
         System.assertEquals(controller.changePassword(),null);                           
+	
+	System.debug('test1');
+        System.debug('test');
+
     }    
 }

@@ -1,10 +1,10 @@
-<apex:page standardController="Contact" extensions="Contact2" sideBar="false" showHeader="false" renderAs="pdf">
+<apex:page standardController="Contact" extensions="Contact2">
 	<apex:form >
 		<apex:pageBlock >
-			<apex:dataTable value="{!cons}" var="con">
-				<apex:column headerValue="First Name" value="{!con.firstname}" />
-				<apex:column headerValue="Last Name" value="{!con.lastname}" />
-			</apex:dataTable>
+			<apex:inputField value="{!contact.LastName}"/>
+			<div style="border:2px blue solid; height:10em;">
+
+			</div>
 		</apex:pageBlock>
 		<apex:commandButton action="{!save}" value="save"/>
 	</apex:form> 
